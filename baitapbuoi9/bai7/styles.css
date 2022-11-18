@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 100px auto;
+  text-align: center;
+  max-width: 1680px;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+.wrapper button {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  color: white;
+  background-color: violet;
+  cursor: pointer;
+}
+.wrapper button div {
+  width: 220px;
+  height: 100px;
+  position: absolute;
+  top: 30px;
+  background: black;
+  left: 0;
+}
+.wrapper button div p {
+  text-align: start;
+  padding: 8px 10px;
+}
+.wrapper button div p:hover {
+  color: black;
+  background: gray;
+}
+.show {
+  display: none;
+}

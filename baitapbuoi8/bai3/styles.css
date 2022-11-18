@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 100px auto;
+  text-align: center;
+  max-width: 1680px;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+.content-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+.radio-item,
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

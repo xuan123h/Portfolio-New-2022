@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.wrapper {
+  max-width: 920px;
+  padding: 40px 60px;
+}
+.header {
+  height: 100px;
+  background-color: #999999;
+  display: flex;
+  align-items: center;
+  color: #fffffffa;
+  justify-content: space-between;
+  padding: 0px 50px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-left h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.header-left img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+.header-right ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header-right ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.header-right ul li a:hover {
+  color: black;
+}
+.information {
+  height: 250px;
+  background-color: rgb(204, 204, 204);
+  background-color: #999999;
+}
+.information-top h4 {
+  text-align: center;
+  font-size: 40px;
+  color: #fffffffa;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.information-top {
+  margin-bottom: 20px;
+}
+.information-desc {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  color: beige;
+  font-weight: bold;
+}
+.popular {
+  height: 600px;
+  padding: 40px 0;
+  background-color: #ffff99;
+}
+.popular-title {
+  text-align: center;
+  color: gray;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+.popular-father {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.popular-item {
+  width: 200px;
+  height: 350px;
+  background: #ffffff;
+}
+.popular-item img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.popular-item-name {
+  padding: 0 10px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.popular-item-desc {
+  padding: 0 10px;
+  color: red;
+  font-weight: 400;
+  width: 160px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.popular-item-price {
+  padding: 0 10px;
+  cursor: pointer;
+}
+.popular-button button {
+  width: 140px;
+  height: 35px;
+  border-radius: 20px;
+  background: gray;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.popular-button button:hover {
+  background: black;
+  color: #fff;
+}
+.layout-one {
+  height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.layout-one-left {
+}
+.layout-one-left img {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.layout-one-right {
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  width: 250px;
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.desc {
+  width: 800px;
+  color: red;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.button-more {
+  width: 140px;
+  height: 35px;
+  border-radius: 20px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  transform: all 0.5s ease;
+}
+.button-more:hover {
+  background: #ffff;
+  color: black;
+}
+.layout-two {
+  height: 400px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.layout-two-left {
+}
+.layout-two-left img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.layout-two-right {
+  padding: 0px 30px;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  width: 250px;
+  color: red;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+.desc {
+  width: 300px;
+  color: red;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 25px;
+}
+.button-more {
+  width: 140px;
+  height: 35px;
+  border-radius: 20px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.order {
+  height: 400px;
+  background-color: #999999;
+  padding: 70px 30px;
+}
+.order-title {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 22px;
+  color: #fffffffa;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 25px;
+}
+.order-father {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.order-item {
+  width: 250px;
+  height: 200px;
+}
+.number {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background: #ffffff;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.list {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.list:nth-child(2) {
+  width: 200px;
+}
+.description {
+  color: #ffffff;
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 15px;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.delivery {
+  height: 400px;
+  padding: 60px 0;
+  background: url(../baikiemtragiuaky/assets/images/image06.jpg) 50% 50%
+    no-repeat;
+  background-color: #ffff99;
+}
+.delivery-title {
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  z-index: 100;
+}
+.delivery-desc {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  color: aqua;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.delivery i {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.button-delivery {
+  width: 140px;
+  height: 35px;
+  border-radius: 20px;
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.button-delivery:hover {
+  background: #ccc;
+  color: #ffffff;
+}
+.contact {
+  height: 400px;
+  padding: 60px 0;
+  background-color: #ffff99;
+}
+.contact-icons {
+  font-size: 60px;
+  color: rgb(104, 104, 204);
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 4px;
+}
+.contact-desc {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  color: rgb(104, 104, 204);
+  margin-bottom: 15px;
+}
+.contact-name {
+  text-align: center;
+  color: rgb(104, 104, 204);
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.contact-images {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+.contact-images p {
+  width: 26px;
+  height: 26px;
+  background-color: rgb(104, 104, 104);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.contact-images p:hover {
+  color: grey;
+  background: #fff;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  height: 400px;
+  background-color: #999999;
+  padding: 120px 100px;
+  gap: 10px;
+}
+.footer-left {
+}
+.footer-left-name {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.footer-left-desc {
+  width: 300px;
+  color: aqua;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.footer-right-name {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 12px;
+}
+.footer-right-list li a {
+  color: aqua;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.footer-right-list li {
+  margin-bottom: 10px;
+}
+.footer-right-name:nth-child(2) {
+  width: 140px;
+}
+.icons {
+  font-size: 100px;
+  color: black;
+  width: 100px;
+  height: 100px;
+  z-index: 120px;
+}

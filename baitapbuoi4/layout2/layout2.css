@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1680px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: goldenrod;
+  padding: 20px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.menu-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 2;
+}
+.menu-left img {
+  width: 32px;
+  height: 32px;
+  border-radius: 100rem;
+}
+.menu-left li {
+  list-style: none;
+  width: 150px;
+  color: #ffffff;
+  font-size: 16px;
+}
+.menu-between-list {
+  color: #ffffff;
+  font-size: 16px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: all 0.5s;
+  flex: 1;
+  margin: 0 100px;
+}
+.menu-between-list li:hover {
+  color: black;
+  cursor: pointer;
+}
+.menu-right span svg {
+  color: black;
+  width: 40px;
+  height: 40px;
+  background: green;
+  padding: 10px;
+  border-radius: 10px;
+  color: #ffffff;
+  flex: 1;
+}
+.heading h1 {
+  width: 580px;
+  color: #212121;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  padding: 22px 20px;
+}
+.heading p {
+  width: 574px;
+  color: #424242;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+}
+.heading-tabs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 20px;
+}
+.heading-tabs span {
+  width: 120px;
+  height: 30px;
+  color: #000000de;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  background: #ccc;
+  border-radius: 10px;
+  justify-content: center;
+}
+.active {
+  color: #ffffff !important;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  width: 1800px;
+}
+.content-item {
+  width: 500px;
+}
+.content-item-img img {
+  width: 360px;
+  height: 180px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.content-item-title {
+  width: 320px;
+  color: #212121;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content-item-description {
+  width: 360px;
+  color: #616161;
+  font-size: 16px;
+  float: left;
+}

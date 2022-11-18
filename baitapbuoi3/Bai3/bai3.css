@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 22px;
+  color: green;
+  font-weight: bold;
+}
+.name {
+  text-align: center;
+  font-size: 18px;
+  list-style: none;
+  text-decoration: underline;
+  font-weight: 800;
+}
+.excersize {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.excersize a {
+  text-decoration: none;
+  font-size: 24px;
+}
+.icon svg {
+  width: 20px;
+  height: 20px;
+  margin: 40px 883px;
+  cursor: pointer;
+}

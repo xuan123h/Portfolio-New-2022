@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 3</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center">
+      <a href="../test.html#portfolio"> Quay về bài tập </a>
+    </h2>
+    <div class="container">
+      <div class="wrapper">
+        <form class="content" onsubmit=" return validateForm()" action="">
+          <h2>FORM ĐĂNG KÝ</h2>
+          <div class="content-flex">
+            <li>Họ</li>
+            <input type="text" id="txt_ho" required />
+          </div>
+          <div class="content-flex">
+            <li>Tên</li>
+            <input type="text" id="txt_ten" required />
+          </div>
+          <div class="content-flex">
+            <li>Ngày sinh:</li>
+            <div class="content-flex">
+              <label for=""> Ngày </label>
+              <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+              </select>
+            </div>
+            <div class="content-flex">
+              <label for=""> Tháng </label>
+              <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+              </select>
+            </div>
+            <div class="content-flex">
+              <label for=""> Năm </label>
+              <select name="" id="">
+                <option value="">1980</option>
+                <option value="">1981</option>
+                <option value="">1982</option>
+                <option value="">2000</option>
+              </select>
+            </div>
+          </div>
+          <div class="content-flex">
+            <li>Giới tính</li>
+            <div class="radio-item">
+              <li><input type="radio" name="gender" /> Nam</li>
+              <li><input type="radio" name="gender" /> Nữ</li>
+            </div>
+          </div>
+          <div class="content-flex">
+            <li>Số điện thoại</li>
+            <input type="text" id="txt_dienthoai" required />
+          </div>
+          <div class="content-flex">
+            <li>Sở thích</li>
+            <div class="checkbox-item">
+              <li><input type="checkbox" value="one" checked /> Đọc sách</li>
+            </div>
+            <div class="checkbox-item">
+              <li><input type="checkbox" /> Xem phim</li>
+            </div>
+            <div class="checkbox-item">
+              <li><input type="checkbox" /> Nghe nhạc</li>
+            </div>
+            <div class="checkbox-item">
+              <li><input type="checkbox" /> Đá bóng</li>
+            </div>
+          </div>
+          <div class="content-flex">
+            <li>Khác</li>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="content-flex">
+            <button type="submit">Submit</button>
+            <button>Reset</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai 5</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h2 style="text-align: center">
+      <a href="../test.html#portfolio"> Quay về bài tập </a>
+    </h2>
+    <div class="container">
+      <h5>đổi màu tôi đi</h5>
+      <button class="color">xanh</button>
+    </div>
+  </body>
+  <script>
+    const x = document.querySelector(".color");
+    x.addEventListener("click", function () {
+      x.style.backgroundColor = "violet";
+      x.style.color = "black";
+      x.style.border = "none";
+    });
+  </script>
+</html>

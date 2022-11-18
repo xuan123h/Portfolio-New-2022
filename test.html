@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio 2022</title>
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="./test.css" />
+  </head>
+  <body onload="play()">
+    <!-- Icon menu -->
+    <div id="menu-bars" class="fa-solid fa-bars"></div>
+    <!-- header -->
+    <header>
+      <a href="#" class="logo"><span> Nguyễn Văn </span> Xuân </a>
+      <nav class="navbar">
+        <a href="#home"> home </a>
+        <a href="#about"> about </a>
+        <a href="#service"> service </a>
+        <a href="#portfolio"> portfolio </a>
+        <a href="#contact"> contact </a>
+      </nav>
+      <div class="follow">
+        <a href="https://www.facebook.com/vanxuan.nguyen.73345048/"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="https://twitter.com/Xuan2k3">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="tiktok.com"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="https://www.youtube.com/channel/UC-5TeBIsW3eva1sCPImz_iw"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+    </header>
+    <!-- end-header -->
+    <section class="home" id="home">
+      <div class="content">
+        <span class="hi"> Good Morning ... </span>
+        <h3>i am <span> NGUYEN VAN XUAN </span></h3>
+        <p class="info">i am a front-end developer</p>
+        <p class="text">
+          I can use programming languages ​​to create beautiful, good websites
+        </p>
+        <a href="#about" class="btn"> about me </a>
+      </div>
+      <div id="slider" class="image">
+        <img src="../../../../img/Picture1.png" alt="" id="img" />
+        <div class="slider-button">
+          <button onclick="next()">&#10095;</button>
+          <button onclick="prev()">&#10094;</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h1 class="heading">about <span>me</span></h1>
+      <div class="row-1">
+        <div class="image">
+          <img src="../../../../img/avatar.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>my name is xuan & i am a front-end developer</h3>
+          <p>
+            Currently a student majoring in information technology, at Hanoi
+            Capital University
+          </p>
+          <div class="box-container">
+            <div class="box">
+              <p><span> age: </span> 19</p>
+              <p><span> gender: </span> male</p>
+              <p><span> work: </span> front-end developer</p>
+            </div>
+            <div class="box">
+              <p><span> phone: </span> 096523994</p>
+              <p><span> email: </span> nguyenvanxuan30082003@gmail.com</p>
+              <p><span> github: </span> github.com/xuan123h</p>
+            </div>
+          </div>
+          <a href="#portfolio" class="btn"> Portfolio </a>
+          <a href="#contact" class="btn"> Contact me </a>
+        </div>
+      </div>
+      <h1 class="heading"><span> my </span> skills</h1>
+      <div class="row-2">
+        <div class="box">
+          <p><span> Languages: </span> HTML, CSS, JAVASCRIPT, REACTJS</p>
+          <p>
+            <span> English: </span> know how to read and understand basic
+            English
+          </p>
+          <p>
+            <span> On school: </span> share, help, learn knowledge from friends,
+            teachers, teachers
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- service -->
+    <section class="service" id="service">
+      <h1 class="heading"><span>my</span>services</h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-code"></i>
+          <h3>web design</h3>
+          <p>Using HTML, CSS, JS design website good, beautiful...</p>
+        </div>
+        <div class="box">
+          <i class="fas fa-mobile"></i>
+          <h3>responsive design</h3>
+          <p>Using HTML,CSS,JS help responsive full screen...</p>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio -->
+    <section class="portfolio" id="portfolio">
+      <h1 class="heading"><span>my</span> portfolio</h1>
+      <p><span>Học phần</span> Thiết kế website</p>
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 1 : Basic cards HTML</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi1/demo.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 2 - Lesson 1 : Internal, External, Inline CSS</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi2/Bai1/demo1.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 2 - Lesson 2 : Website design basic HTML, CSS</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi2/Bai2/user1.html"
+              class="fas fa-link"
+            ></a>
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi2/Bai2/user2.html"
+              class="fas fa-link"
+            ></a>
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi2/Bai2/user3.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 2 - Lesson 3 : Use HTML,CSS design website with me</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi2/Bai3/bai3.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 3 - Lesson 1 : Use HTML,CSS design website 1</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi3/Bai1/bai1.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 3 - Lesson 2 : Use HTML,CSS design website 2</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi3/Bai2/bai2.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>
+            Exercise 3 - Lesson 3 : Use attribute CSS design website with me
+          </h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi3/Bai3/bai3.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>
+            Exercise 4 - Lesson 1 : Use attribute flexbox, grid in the HTML,CSS
+            design website 1
+          </h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi4/layout2/layout2.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>
+            Exercise 4 - Lesson 2 : Use attribute flexbox, grid in the HTML,CSS
+            design website 2
+          </h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi4/layout3/layout3.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 5 - Lesson 1 : Use HTML, CSS design menu multi-level</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi5/bai1/5-1.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>
+            Exercise 5 - Lesson 2 : Use HTML, CSS design menus multi-level
+          </h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi5/bai2/5-2.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>
+            Exercise 6 - Lesson 1 : Use HTML, CSS design cards item clone
+            mp3.com
+          </h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi6/bai1/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 6 - Lesson 2 : Use HTML, CSS hover item menu</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi6/bai2/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 6 - Lesson 3 : Use HTML, CSS hover animation</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi6/bai3/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>
+            Exercise 7 - Lesson 1 : Embed the file and print the text to the
+            screen with js
+          </h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi7/bai1/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 7 - Lesson 2 : Check even and odd numbers using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi7/bai2/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 7 - Lesson 3 : Predict the number entered using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi7/bai3/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 8 - Lesson 1 : Submit form using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi8/bai3/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 8 - Lesson 2 : Slider using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi8/bai4/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 8 - Lesson 3 : Change text using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi8/bai5/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 9 - Lesson 1 : Menu multi-level using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi9/bai7/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>Exercise 9 - Lesson 2 : Menu tooltip using js</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baitapbuoi9/bai8/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+        <div class="box">
+          <img
+            src="http://2.bp.blogspot.com/-816g_mkfP6U/UL7OJ-RH2BI/AAAAAAAAAKM/nmcXAcrS2PY/s1600/anh-avatar-dep-21.jpg"
+            alt=""
+          />
+          <h3>30% test</h3>
+          <div class="icons">
+            <a
+              href="https://xuan123h.github.io/design-web/baikiemtragiuaky/index.html"
+              class="fas fa-link"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h1 class="heading">contact <span> me </span></h1>
+      <div class="icons-container">
+        <div class="icons">
+          <i class="fas fa-envelope"></i>
+          <h3>my email</h3>
+          <p>nguyenvanxuan@gmail.com</p>
+        </div>
+        <div class="icons">
+          <i class="fas fa-phone"></i>
+          <h3>my number</h3>
+          <p>0183284723</p>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-location-dot"></i>
+          <h3>my address</h3>
+          <p>Tam thuan, Phuc tho, Ha noi</p>
+        </div>
+      </div>
+      <div class="row">
+        <form action="">
+          <input type="text" placeholder="name" class="box" required />
+          <input type="email" placeholder="email" class="box" required />
+          <input type="number" placeholder="number" class="box" required />
+          <textarea
+            name=""
+            placeholder="message"
+            id=""
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+          <input type="submit" class="btn" value="send message" />
+        </form>
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238217.47923732997!2d105.4420476663606!3d21.106660420007763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134581a62875e03%3A0xd905fd3662114cb4!2zUGjDumMgVGjhu40sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1668666390609!5m2!1svi!2s"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      created by <span> nguyenvanxuan </span> | all rights reserved !
+    </footer>
+  </body>
+  <!-- Js -->
+  <script src="./test.js"></script>
+</html>

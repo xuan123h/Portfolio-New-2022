@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 1040px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: red;
+  color: #ffffff;
+  list-style: none;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+.menu li svg {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+}
+.menu li:hover {
+  color: gold;
+  cursor: pointer;
+}
+.slider img {
+  width: 1040px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.content {
+  display: flex;
+  align-items: start;
+  gap: 20px;
+}
+.content-left {
+  flex: 2;
+}
+.content-left-top {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 38px 0;
+}
+.content-left-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.content-left-bottom-item img {
+  width: 250px;
+  height: 156px;
+  object-fit: cover;
+}
+.content-left-bottom-item h3 {
+  width: 240px;
+  color: #2d2d2d;
+  font-size: 17px;
+}
+.content-left-one img {
+  width: 460px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.content-left-one h2 {
+  width: 422px;
+  height: 90px;
+  color: #222222;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+.content-left-one p {
+  width: 460px;
+  height: 60px;
+  color: #444444;
+  font-size: 14px;
+}
+.content-left-two img {
+  width: 260px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.content-left-two h2 {
+  width: 220px;
+  height: 120px;
+  color: #222222;
+}
+.content-right {
+  flex: 1;
+}
+.content-right-one img {
+  width: 200px;
+  height: 720px;
+  object-fit: inherit;
+}
+.content-right-two {
+  margin-top: 20px;
+}
+.content-right-two h4 {
+  color: #000000;
+  font-size: 16px;
+  margin-bottom: 14px;
+  display: flex;
+  padding: 0 4px;
+}
+.content-right-two img {
+  width: 300px;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.content-right-two span {
+  width: 285px;
+  font-size: 16px;
+  color: #000000;
+}
+.content-right-two button {
+  width: 120px;
+  height: 28px;
+  color: #0064c3;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 30px 0;
+}
