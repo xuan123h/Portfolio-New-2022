@@ -13,14 +13,14 @@ var arrImg = [];
 function loadImg() {
   for (var i = 0; i < arrImg.length; i++) {
     arrImg[i] = new Image();
-    arrImg[i].src = "../../../../img/Picture" + (i + 1) + "png";
+    arrImg[i].src = "img/Picture" + (i + 1) + "png";
   }
 }
 var arrayImg2 = [
-  "../../../../img/Picture1.png",
-  "../../../../img/Picture2.png",
-  "../../../../img/Picture3.png",
-  "../../../../img/Picture4.png",
+  "img/Picture1.png",
+  "img/Picture2.png",
+  "img/Picture3.png",
+  "img/Picture4.png",
 ];
 var img = document.getElementById("img");
 var index = 0;
