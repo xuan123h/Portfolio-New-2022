@@ -39,3 +39,37 @@ function play() {
   clearInterval(t);
   t = setInterval("next()", 6000);
 }
+// validateForm
+function validateForm() {
+  var name = document.getElementById("txtName").value;
+  var email = document.getElementById("txtEmail").value;
+  var phone = document.getElementById("txtPhone").value;
+  var msgName = document.getElementById("nameErr");
+  var msgEmail = document.getElementById("emailErr");
+  var msgPhone = document.getElementById("phoneErr");
+  var hasErrorName = true;
+  var hasErrorEmail = true;
+  var hasErrorPhone = true;
+  if (name == "") {
+    msgName.innerHTML = "Họ và tên không được để trống !";
+  } else {
+    msgName.innerHTML = "";
+    hasErrorName = false;
+  }
+  if (isNaN(phone) || length(x) == 0 || length(x) > 10) {
+    alert("điện thoại phải là số, mời nhập lại");
+    msgPhone.innerHTML = "Phone không được để trống";
+    return false;
+  }
+  if (email == "") {
+    msgEmail.innerHTML = "Email không được để trống !";
+  } else {
+    msgEmail.innerHTML = "";
+    hasErrorName = false;
+  }
+  if ((hasErrorName == true, hasErrorEmail == true, hasErrorPhone == true)) {
+    return false;
+  } else {
+    alert("Contact me success !");
+  }
+}
